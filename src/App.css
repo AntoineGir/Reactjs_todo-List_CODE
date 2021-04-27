@@ -1,0 +1,49 @@
+body {
+    background-color: whitesmoke;
+    font-family: Arial;
+    padding: 0;
+    margin: 0;
+}
+
+.site{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container{
+    text-align: center;
+    width: 350px;
+    color: black;
+}
+
+.todo_List{
+    display: flex;
+    min-height: 320px;
+    align-items: center;
+    flex-direction: column;
+    background-color:rgba(0, 0, 255, 0.657);
+    border-radius: 1rem;
+}
+
+.form{
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+.inputValueToDo{
+    font-size: 22px;
+}
+.lblDate{
+    display: flex;
+    justify-content: left;
+    font-size: 12px;
+}
+
+
+.list{
+    display: flex;   
+    flex-direction: column;
+}

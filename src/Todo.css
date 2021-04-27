@@ -1,0 +1,46 @@
+.todo {
+    width: 290px;
+    height: 45px;
+    margin: 3%;
+    padding: 10px;
+    border-radius: 0.25rem;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.todo-check{
+    display: flex;
+    align-items: center;
+}
+
+
+.inputClasstrue{
+    text-decoration-line: line-through;
+    color: gray;
+    background-color: transparent;
+    font-size: 20px;
+    display: flex;
+    border: none;
+}
+
+.inputClasstrue:focus{
+    outline: none;
+}
+
+.inputClassfalse{
+    background-color: transparent;
+    font-size: 20px;
+    display: flex;
+    border: none;
+}
+
+.inputClassfalse:focus{
+    outline: none;
+}
+
+.todo-delete{
+    display: flex;
+    align-items: center;
+}
