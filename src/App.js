@@ -1,10 +1,3 @@
-/*
-reste a faire edit 
-check pour renomer class label pour le barrer
-design
-*/
-
-
 import React, { useState, useRef, useEffect } from 'react';
 import Todo from './Todo'
 import './App.css'
@@ -23,7 +16,7 @@ useEffect(() => {
   setTodos(storedTodos)
 }, [])
 
-//enregistrement des informations
+//enregistrement des informations dans localStorage
 useEffect(() => {
   localStorage.setItem(Local_STORAGE_KEY, JSON.stringify(todos))
 }, [todos])
@@ -48,6 +41,7 @@ function editTodo(name, id)
     setTodos(newTodos)
 }
 
+ //check si le todo est terminer
 function checkTodo(id) {
   const newTodos = [...todos]
   const todo = newTodos.find(todo => todo.id === id)
